@@ -15,8 +15,7 @@ def main():
         print("The length should be a positive integer.")
     else:
         password = gen_pass(length)
-        print(f"Generated Password: {password}")
-
+        print(f"Generated Password: {password}")
 if __name__ == "__main__":
     main()
 
